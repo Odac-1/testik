@@ -1,0 +1,62 @@
+:root {
+  --color-brand: #819b57;
+  --color-primary-light: #faf4ea;
+  --color-primary-dark: #31261a;
+  --color-brand-dark: #465929;
+}
+/* Base */
+body {
+  color: var(--color-primary-dark);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+ul {
+  list-style: none;
+}
+/* Advantages List */
+.advantages-list {
+  background-color: var(--color-brand);
+  color: var(--color-primary-light);
+}
+/* Hero Title */
+.hero-title {
+  color: var(--color-primary-light);
+  text-align: center;
+  font-size: 128px;
+  font-weight: 900;
+}
+.hero-title .accent {
+  color: var(--color-brand);
+}
+/* Buttons */
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+/* Navigation Links */
+.nav-link {
+  text-decoration: none;
+  color: var(--color-primary-light);
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: var(--color-brand);
+}
+/* Section Titles */
+.section-title .accent {
+  color: var(--color-brand-dark);
+}
+/* Traditions Text */
+.traditions-text .brand {
+  color: var(--color-brand);
+}
+.traditions-text .uppercase {
+  text-transform: uppercase;
+}
